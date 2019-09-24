@@ -10,13 +10,13 @@ except:
         command = None
 
 if command and command[0] == 'activate':
-        xbmc.executebuiltin('CECActivateSource')
+        xbmc.executebuiltin('CECActivateSource()')
 
 elif command and command[0] == 'toggle':
-        xbmc.executebuiltin('CECToggleState')
+        xbmc.executebuiltin('CECToggleState()')
 
 elif command and command[0] == 'standby':
-        xbmc.executebuiltin('CECStandby')
+        xbmc.executebuiltin('CECStandby()')
 
 elif command and command[0] == 'stop_and_standby':
         if xbmc.Player().isPlaying():
