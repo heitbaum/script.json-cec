@@ -1,5 +1,5 @@
 import xbmc
-import urlparse
+import urllib.parse
 import sys
 import time
 
